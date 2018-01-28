@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <dimen name="control_corner_watch">20dp</dimen>
+
+    <dimen name="button_padding_horizontal_watch">10dp</dimen>
+    <dimen name="button_padding_vertical_watch">8dp</dimen>
+
+    <dimen name="alert_dialog_title_height_watch">48dp</dimen>
+
+    <dimen name="list_item_padding_horizontal_watch">40dp</dimen>
+</resources>

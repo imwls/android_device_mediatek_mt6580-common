@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <!-- Widget Styles -->
+
+    <style name="watch"/>
+
+    <style name="Widget.watch" parent="Widget" />
+
+    <!-- Bordered ink button -->
+    <style name="Widget.watch.Button">
+        <item name="background">@drawable/btn_default_watch</item>
+        <item name="textAppearance">?attr/textAppearanceButton</item>
+        <item name="minHeight">48dip</item>
+        <item name="minWidth">88dip</item>
+        <item name="stateListAnimator">@anim/button_state_list_anim_material</item>
+        <item name="focusable">true</item>
+        <item name="clickable">true</item>
+        <item name="gravity">center_vertical|center_horizontal</item>
+    </style>
+
+    <!-- Small bordered ink button -->
+    <style name="Widget.watch.Button.Small">
+        <item name="minHeight">48dip</item>
+        <item name="minWidth">48dip</item>
+    </style>
+
+    <!-- Borderless ink button -->
+    <style name="Widget.watch.Button.Borderless">
+        <item name="background">@drawable/btn_borderless_watch</item>
+        <item name="stateListAnimator">@null</item>
+    </style>
+
+    <!-- Colored borderless ink button -->
+    <style name="Widget.watch.Button.Borderless.Colored">
+        <item name="textColor">?attr/colorAccent</item>
+    </style>
+
+    <!-- Alert dialog button bar button -->
+    <style name="Widget.watch.ButtonBar.AlertDialog" parent="Widget.watch.Button.Borderless.Colored">
+        <item name="background">@null</item>
+        <item name="minWidth">80dp</item>
+        <item name="maxLines">2</item>
+        <item name="minHeight">@dimen/alert_dialog_button_bar_height</item>
+    </style>
+
+    <!-- Small borderless ink button -->
+    <style name="Widget.watch.Button.Borderless.Small">
+        <item name="minHeight">48dip</item>
+        <item name="minWidth">48dip</item>
+    </style>
+
+    <style name="Widget.watch.Button.Inset">
+        <item name="background">@drawable/button_inset</item>
+    </style>
+
+    <style name="Widget.watch.Button.Toggle">
+        <item name="background">@drawable/btn_toggle_material</item>
+        <item name="textOn">@string/capital_on</item>
+        <item name="textOff">@string/capital_off</item>
+    </style>
+
+    <style name="Widget.watch.ButtonBar">
+        <item name="background">@null</item>
+    </style>
+
+    <style name="TextAppearance.watch.Button" parent="TextAppearance.Material.Button">
+        <item name="textSize">14sp</item>
+        <item name="fontFamily">sans-serif-condensed</item>
+        <item name="textColor">?android:attr/textColorPrimary</item>
+        <item name="textAllCaps">false</item>
+    </style>
+
+</resources>

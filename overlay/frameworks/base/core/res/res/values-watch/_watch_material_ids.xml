@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <add-resource name="primary_text_watch" type="color"/>
+    <add-resource name="accent_watch" type="color"/>
+    <add-resource name="background_watch_dark" type="color"/>
+
+    <add-resource name="control_corner_watch" type="dimen"/>
+    <add-resource name="button_padding_horizontal_watch" type="dimen"/>
+    <add-resource name="button_padding_vertical_watch" type="dimen"/>
+    <add-resource name="alert_dialog_title_height_watch" type="dimen"/>
+    <add-resource name="list_item_padding_horizontal_watch" type="dimen"/>
+
+    <add-resource name="watch" type="style"/>
+    <add-resource name="Widget.watch" type="style"/>
+    <add-resource name="Widget.watch.Button" type="style"/>
+    <add-resource name="Widget.watch.Button.Small" type="style"/>
+    <add-resource name="Widget.watch.Button.Borderless" type="style"/>
+    <add-resource name="Widget.watch.Button.Borderless.Colored" type="style"/>
+    <add-resource name="Widget.watch.ButtonBar.AlertDialog" type="style"/>
+    <add-resource name="Widget.watch.Button.Borderless.Small" type="style"/>
+    <add-resource name="Widget.watch.Button.Inset" type="style"/>
+    <add-resource name="Widget.watch.Button.Toggle" type="style"/>
+    <add-resource name="Widget.watch.ButtonBar" type="style"/>
+    <add-resource name="Widget.watch.ButtonBar.AlertDialog" type="style"/>
+
+    <add-resource name="TextAppearance.watch.Button" type="style"/>
+
+    <!-- utility resources -->
+    <add-resource name="debug_red" type="color"/>
+    <color name="debug_red">#cccc0000</color>
+
+    <add-resource name="debug_green" type="color"/>
+    <color name="debug_green">#cc00cc00</color>
+
+    <add-resource name="debug_blue" type="color"/>
+    <color name="debug_blue">#cc0000cc</color>
+
+</resources>
