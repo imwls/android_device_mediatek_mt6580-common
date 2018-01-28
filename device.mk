@@ -39,6 +39,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     ClockSkinCoco
 
+# WatchSettings
+PRODUCT_PACKAGES += \
+    WatchSettings
+
 # Bluetooth
 PRODUCT_PACKAGES += \
     libbt-vendor
